@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5382275157957198058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9153394766912595324}
+  - component: {fileID: 8483974451246389789}
+  - component: {fileID: 9143651303006013839}
+  m_Layer: 0
+  m_Name: FlameIcon_Blue_Pickup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9153394766912595324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5382275157957198058}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2476144078383825215}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &8483974451246389789
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5382275157957198058}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1.3
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &9143651303006013839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5382275157957198058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad0e2b62c2bcbe54db25f0d6489cb993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlamePickup
+  objective: {fileID: 0}
+  displayName: blue flame
+  visual: {fileID: 2234670268118297311}
+  requiredCoins: []
+  pickupSound: {fileID: 8300000, guid: c14eca5d692cd9b4eba1850bae9dd42b, type: 3}
+  soundVolume: 0.8
+--- !u!1001 &3083866809872913106
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9153394766912595324}
+    m_Modifications:
+    - target: {fileID: 617309180257555437, guid: 1cc2d42a4b742cd418c81ab4f9047217, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 617309180257555437, guid: 1cc2d42a4b742cd418c81ab4f9047217, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 617309180257555437, guid: 1cc2d42a4b742cd418c81ab4f9047217, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 617309180257555437, guid: 1cc2d42a4b742cd418c81ab4f9047217, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 617309180257555437, guid: 1cc2d42a4b742cd418c81ab4f9047217, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 617309180257555437, guid: 1cc2d42a4b742cd418c81ab4f9047217, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 617309180257555437, guid: 1cc2d42a4b742cd418c81ab4f9047217, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 617309180257555437, guid: 1cc2d42a4b742cd418c81ab4f9047217, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 617309180257555437, guid: 1cc2d42a4b742cd418c81ab4f9047217, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 617309180257555437, guid: 1cc2d42a4b742cd418c81ab4f9047217, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 617309180257555437, guid: 1cc2d42a4b742cd418c81ab4f9047217, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 617309180257555437, guid: 1cc2d42a4b742cd418c81ab4f9047217, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 617309180257555437, guid: 1cc2d42a4b742cd418c81ab4f9047217, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877384061178017805, guid: 1cc2d42a4b742cd418c81ab4f9047217, type: 3}
+      propertyPath: m_Name
+      value: Visual
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3877384061178017805, guid: 1cc2d42a4b742cd418c81ab4f9047217, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2135974810347532264}
+  m_SourcePrefab: {fileID: 100100000, guid: 1cc2d42a4b742cd418c81ab4f9047217, type: 3}
+--- !u!1 &2234670268118297311 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3877384061178017805, guid: 1cc2d42a4b742cd418c81ab4f9047217, type: 3}
+  m_PrefabInstance: {fileID: 3083866809872913106}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2135974810347532264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2234670268118297311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c001ec682c97b7c46990e47b813ac592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpinAndBob
+  spinSpeed: 90
+  bobHeight: 0.25
+  bobSpeed: 2
+--- !u!4 &2476144078383825215 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 617309180257555437, guid: 1cc2d42a4b742cd418c81ab4f9047217, type: 3}
+  m_PrefabInstance: {fileID: 3083866809872913106}
+  m_PrefabAsset: {fileID: 0}
